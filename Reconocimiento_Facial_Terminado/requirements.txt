@@ -1,7 +1,0 @@
-ddgs
-mtcnn
-numpy
-opencv-python
-pillow
-scikit-learn
-tensorflow

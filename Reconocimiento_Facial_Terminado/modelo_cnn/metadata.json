@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-05-24T01:44:07",
+  "image_size": [
+    160,
+    160
+  ],
+  "class_names": [
+    "Cristofer Sarabia Sosa",
+    "Diego_Monreal",
+    "Emma Stone",
+    "Jeffrey Epstein",
+    "Keanu Reeves",
+    "Leonardo DiCaprio",
+    "Oliver_Calderon",
+    "P Diddy",
+    "Rick Grimes",
+    "Robert Downey Jr",
+    "The Rock Johnson",
+    "Tom Holand",
+    "Will Smith"
+  ],
+  "class_counts": {
+    "Cristofer Sarabia Sosa": 200,
+    "Diego_Monreal": 200,
+    "Emma Stone": 100,
+    "Jeffrey Epstein": 93,
+    "Keanu Reeves": 100,
+    "Leonardo DiCaprio": 100,
+    "Oliver_Calderon": 201,
+    "P Diddy": 100,
+    "Rick Grimes": 100,
+    "Robert Downey Jr": 100,
+    "The Rock Johnson": 100,
+    "Tom Holand": 100,
+    "Will Smith": 100
+  },
+  "validation_loss": 2.7772417068481445,
+  "validation_accuracy": 0.08176100999116898,
+  "args": {
+    "dataset": "C:\\Users\\XPG\\Desktop\\IA-Repo\\Reconocimiento_Facial\\Dataset",
+    "salida": "C:\\Users\\XPG\\Desktop\\IA-Repo\\Reconocimiento_Facial\\modelo_cnn",
+    "epochs": 30,
+    "batch_size": 32,
+    "validation_split": 0.2,
+    "learning_rate": 0.001,
+    "seed": 123,
+    "patience": 6,
+    "sin_aumentacion": false
+  }
+}

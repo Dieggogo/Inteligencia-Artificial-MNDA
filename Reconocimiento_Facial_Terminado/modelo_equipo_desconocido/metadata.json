@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-05-24T02:40:39",
+  "image_size": [
+    160,
+    160
+  ],
+  "class_names": [
+    "Cristofer Sarabia Sosa",
+    "Desconocido",
+    "Diego_Monreal",
+    "Oliver_Calderon"
+  ],
+  "class_counts": {
+    "Cristofer Sarabia Sosa": 200,
+    "Desconocido": 300,
+    "Diego_Monreal": 200,
+    "Oliver_Calderon": 201
+  },
+  "validation_loss": 0.00010015979933086783,
+  "validation_accuracy": 1.0,
+  "args": {
+    "dataset": "C:\\Users\\XPG\\Desktop\\IA-Repo\\Reconocimiento_Facial\\Dataset_equipo_desconocido",
+    "salida": "C:\\Users\\XPG\\Desktop\\IA-Repo\\Reconocimiento_Facial\\modelo_equipo_desconocido",
+    "epochs": 20,
+    "fine_tune_epochs": 10,
+    "arquitectura": "mobilenet",
+    "pesos": "imagenet",
+    "unfreeze_layers": 30,
+    "batch_size": 32,
+    "validation_split": 0.2,
+    "learning_rate": 0.001,
+    "seed": 123,
+    "patience": 6,
+    "sin_aumentacion": false
+  }
+}

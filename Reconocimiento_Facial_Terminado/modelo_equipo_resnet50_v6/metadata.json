@@ -1,0 +1,35 @@
+{
+  "created_at": "2026-05-25T15:59:32",
+  "image_size": [
+    160,
+    160
+  ],
+  "class_names": [
+    "Cristofer Sarabia Sosa",
+    "Diego_Monreal",
+    "Oliver_Calderon"
+  ],
+  "class_counts": {
+    "Cristofer Sarabia Sosa": 400,
+    "Diego_Monreal": 400,
+    "Oliver_Calderon": 401
+  },
+  "validation_loss": 0.30793049931526184,
+  "validation_accuracy": 1.0,
+  "args": {
+    "dataset": "D:\\Archivos\\Documentos\\Diego\\Reconocimiento_Facial\\Dataset_equipo_v6",
+    "salida": "D:\\Archivos\\Documentos\\Diego\\Reconocimiento_Facial\\modelo_equipo_resnet50_v6",
+    "epochs": 35,
+    "fine_tune_epochs": 20,
+    "arquitectura": "resnet50",
+    "pesos": "imagenet",
+    "unfreeze_layers": 80,
+    "batch_size": 32,
+    "validation_split": 0.2,
+    "learning_rate": 0.0003,
+    "seed": 123,
+    "patience": 6,
+    "sin_aumentacion": false,
+    "label_smoothing": 0.1
+  }
+}

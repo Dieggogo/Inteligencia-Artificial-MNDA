@@ -1,27 +1,43 @@
-<h1 align="center">Repositorio de Inteligencia Artificial</h1>
+﻿<h1 align="center">Portafolio de Inteligencia Artificial</h1>
+<p align="center">
+  Practicas, proyectos y evidencias de la materia de IA
+</p>
+<p align="center">
+  <strong>Alumno:</strong> Monreal Navarro Diego Alan - 22170730<br/>
+  <strong>Profesor:</strong> Rios Felix Jose Mario
+</p>
 
 ---
 
-**Alumno:** Monreal Navarro Diego Alan - 22170730  
-**Profesor:** Rios Felix Jose Mario
+## Objetivo del repositorio
+
+Este repositorio concentra el trabajo desarrollado durante el curso de Inteligencia Artificial: busquedas heuristicas, ejercicios de machine learning, construccion de datasets, reconocimiento facial y un proyecto final multimodal.
 
 ---
 
-## 📁 Contenido del repositorio
+## Mapa del repositorio
 
-### 🔎 Busquedas Inteligentes
-- [24-Puzzle](./1.%20Busquedas%20Inteligentes/24-Puzzle)
-- [8Puzzle](./1.%20Busquedas%20Inteligentes/8Puzzle)
+| Carpeta | Descripcion |
+|---|---|
+| [1. Busquedas Inteligentes](./1.%20Busquedas%20Inteligentes) | Implementaciones de algoritmos de busqueda aplicados a rompecabezas (8-puzzle y 24-puzzle). |
+| [2. Dataset Rostros](./2.%20Dataset%20Rostros) | Recoleccion, limpieza y aumento de imagenes faciales para entrenamiento. |
+| [Ejercicios](./Ejercicios) | Practicas de clasificacion, regresion y procesamiento de datos con Python. |
+| [Reconocimiento_Facial_Terminado](./Reconocimiento_Facial_Terminado) | Proyecto de deteccion/reconocimiento facial con enfoque en CNN y dataset aumentado. |
+| [ComentaristaIA](./ComentaristaIA) | Proyecto final: narrador de videojuegos con vision por computadora, NLP y TTS. |
+| [ExamenDiagnostico](./ExamenDiagnostico) | Evidencia del examen diagnostico de la materia. |
+| [Exposicion](./Exposicion) | Material de exposicion tecnica sobre MLOps. |
+| [Tarea-HistoriaDeLaIA](./Tarea-HistoriaDeLaIA) | Actividad documental sobre la evolucion historica de la IA. |
 
-### 🧠 Machine Learning
-- [Ejercicios](./Ejercicios)
-- [Dataset Rostros](./2.%20Dataset%20Rostros)
-- [Reconocimiento Facial (Proyecto CNN)](./Reconocimiento_Facial_Terminado)
+---
 
-### 🎮 Proyecto Final
-- [Comentarista IA de Videojuegos](./ComentaristaIA) - Sistema que comenta partidas con vision, lenguaje natural y TTS.
+## Proyectos destacados
 
-### 🧪 Trabajos extras
-- [Examen Diagnostico](./ExamenDiagnostico)
-- [Exposicion MLOps](./Exposicion)
-- [Historia de la IA](./Tarea-HistoriaDeLaIA)
+- [24-Puzzle](./1.%20Busquedas%20Inteligentes/24-Puzzle): resolucion del problema con enfoque de busqueda inteligente y analisis heuristico.
+- [Reconocimiento Facial](./Reconocimiento_Facial_Terminado): pipeline completo desde dataset hasta modelo final.
+- [Comentarista IA de Videojuegos](./ComentaristaIA): sistema que interpreta escenas y genera narracion automatica.
+
+---
+
+## Nota
+
+El repositorio se actualiza conforme avanzan las actividades del curso, por lo que algunas carpetas incluyen versiones intermedias, experimentos y entregas finales.
